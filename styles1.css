@@ -1,0 +1,337 @@
+body {
+    margin: 0;
+    font-family: tahoma;
+
+}
+
+
+/* Header */
+
+header {
+    background-color: #1951A1;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+header img {
+    width: 6.5rem;
+    padding: 0.8rem;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+    display: inline;
+    
+}
+
+header ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 19rem;
+    bottom: 0.8rem;
+    font-size: 1.5rem;
+}
+
+header li a.login {
+    color: gold;
+}
+
+header li {
+    display: inline;
+    padding: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+ 
+}
+
+header li:hover{
+    background-color: #154384;
+    text-decoration: underline;
+}
+/* Image */
+
+section.marineford img {
+    width: 100%;
+}
+
+
+/* marines article */
+article {
+
+    font-size: 3rem;
+    
+}
+
+article p {
+    position: absolute;
+    
+}   
+div.breaker {
+    background-color:#1951A1;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+/* marines */
+
+.mcontainer {
+    margin: 5rem;
+    margin-top: 7rem;
+    width: 70%;
+    padding: 8px;
+    display: flex;
+    position: relative;
+    left:5rem ;
+    background-color: #1951A1;
+    padding: 5rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.mcontainer:hover {
+    bottom: 0.5rem;
+    background-color: #3060a3;
+}
+
+.mcontainer img {
+    
+    width: 30rem;
+    padding: 0 0rem 0 0rem ;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.mcontainer .mtext {
+    text-align: right;
+    font-size: 2rem;
+    padding-top:3rem ;
+    padding-right: 1rem;
+    color: white;
+}
+
+.mtext .wg {
+    color: gold;
+   
+}
+
+.m {
+    color: #8DBCFF;
+}
+
+.mtext div a{
+    text-decoration: none;
+    color: #154384;
+    font-size:1rem;
+    font: tahoma;
+    line-height: 3rem;
+    font-weight: bold;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    
+}
+
+.mtext div {
+    border-radius: 50%;
+}
+
+.mtext div a:hover{
+    text-decoration: underline;
+    
+}
+
+
+.mtext::selection{
+    background-color: white;
+    color: #154384;
+}
+
+.m::selection{
+    background-color: white;
+    color: #154384;
+}
+
+.wg::selection{
+    background-color: white;
+    color: #154384;
+}
+.mtext div a::selection {
+    background-color: white;
+    color: #154384;
+}
+
+/* worstgen */
+
+section.worstgen img {
+    width: 100%;
+}
+
+.worstgen .worstgentext {
+    color: white;
+    background-color: #154384c9;
+    position: absolute;
+    top: 102rem;
+    right: 21rem;
+    font-size: 2.5rem;
+    width: 50%;
+    height: 30%;
+    padding: 3rem;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.red {
+    color: red;
+}
+
+.worstgentext::selection {
+    background-color: white;
+    color: #154384;
+}
+
+.red::selection{
+    background-color: white;
+    color: #154384;
+}
+
+.pirates {
+    border-radius: 2rem;
+    background-color: rgb(159, 13, 13);
+    width: 20rem;
+    border: 5rem;
+    position: absolute;
+    top: 116rem;
+    right: 37rem;
+    text-align: center;
+    padding: 0.5rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.pirates:hover{
+    top: 115.6rem;
+    text-decoration: underline;
+    background-color: rgb(172, 51, 51);
+}
+
+.pirates a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.5rem;
+}
+
+/* news */
+
+.news {
+    margin: 3rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+
+.ncontainer1 {
+    margin: 0rem;
+    margin-top: 0rem;
+    width: 67%;
+    display: flex;
+    position: relative;
+    left: 5rem;
+    padding: 5rem;
+    font-family: EB Garamond,Times,Serif;
+    
+}
+
+
+.ncontainer1 img {
+    
+    width: 18rem;
+    padding: 0 0rem 0 0rem ;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+
+.headline1:hover {
+    text-decoration: underline;
+}
+
+.ntext {
+    text-align: justify;
+    font-size: 1.5rem;
+    padding-top:3rem ;
+    padding-left: 3rem;
+    color: black;
+}
+
+.ntext .headline1{
+    font-size: 1.8rem;
+    color: #154384;
+
+}
+
+.ntext div a {
+    color: #154384;
+    text-decoration: none;
+    width: 116%;
+    display: flex;
+    position: relative;
+    font-size: 2rem;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #1951A1;
+    height: 10rem;
+}
+
+footer img {
+    width: 8rem;
+}
+
+.fcontainer {
+    display: flex;
+    position: relative;
+    left: 3rem;
+    bottom: -1rem;
+    font-family: tahoma;
+    margin-left: 30rem;
+    color: white;
+    width: 62rem;
+}
+
+.fcontainer a {
+    color: white;
+    text-decoration: none;
+}
+
+.ftext div:hover {
+    text-decoration: underline;
+}
+
+
+
+.ftext div::selection {
+    background-color: white;
+    color: #154384;
+}
+
+.ftext a::selection {
+    background-color: white;
+    color: #154384;
+}
+
+.ftext {
+    margin-left: 2rem;
+    padding-top: 2rem;
+}
+
+
+

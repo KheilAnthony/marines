@@ -1,0 +1,185 @@
+.nav img{
+    width: 10rem;
+}
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container img {
+    width: 200px;
+}
+.container img {
+    width: 115px;
+    padding: 7px;
+}
+.login {
+    color: yellow;
+}
+nav ul a {
+    font-size: 1.3rem;
+}
+hr {
+    background-color:#1565C0 ;
+    height: 2.1rem;
+    margin: 0;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: gold;
+}
+.medtolarge .card .card-content p {
+    margin-left: 63px;
+    font-size: 1.9rem;
+}
+.card .card-content p {
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+.medtolarge .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: gold;
+    margin: 0px;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: gold;
+    margin: 10px;
+}
+.card {
+    margin: 4.5rem 0 4.5rem 0;
+}
+
+.card img {
+    padding: 20px;
+    
+}
+.parallax-container {
+    height: 600px;
+}
+.worstgen .card {
+    margin-top: 8rem;
+    background-color: #1952a1c6;
+}
+
+.worstgen .card .card-action {
+    background-color: #1952a100;
+}
+
+.worstgen .card .card-content p{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    line-height: 4rem;
+}
+@media only screen and (min-width: 993px){
+    .about-us .container {
+    width: 84%;
+    }
+}
+.blue.darken-3 {
+    background-color: #1951A1 !important;
+}
+.worstgen .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    border-radius: 2rem;
+    background-color: rgb(159, 13, 13);
+    width: 20rem;
+    border: 5rem;
+    text-align: center;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+    color: white;
+}
+a.waves-effect.waves-light.btn-small {
+    background-color: rgb(159, 13, 13);
+}
+
+
+.marineford .card {
+    background-color: #1952a1c6;
+    margin-top: 26.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.marineford .card-content p {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.marineford .card-content .new {
+    font-size: 3.9vw;
+}
+.parallax-container .parallax img{
+    min-width: 100%;
+    min-height: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .parallax-container {
+        height: 150px;
+    }
+}
+
+
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: 16px;
+    color: #1952a1c6;
+    display: block;
+    line-height: 22px;
+    padding: 14px 10px;
+    font-weight: bold;
+}
+.carousel .indicators {
+    bottom: 8%;
+}
+.carousel .indicators .indicator-item.active {
+    background-color:#1952a1c6;
+}
+.carousel .indicators .indicator-item {
+    background-color:#88b9fec6
+}
+
+.headline a:hover {
+    text-decoration: underline;
+}
+.headline {
+    margin: 3rem auto;
+}
+
+.headline1 {
+    height: 45rem !important;
+}
+.prev-button .btn {
+    height: 70px;
+    padding-right: 4px;
+    padding-left: 10px;
+}
+.next-button .btn {
+    height: 70px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+@media screen and (max-width: 960px){
+    
+}
+@media screen and (max-width: 700px){
+    .marineford .parallax-container {
+        height: 300px;
+    }
+    .marineford .card {
+        margin-top: 9.5rem;
+    }
+    .marineford-card {
+        margin-left: 12px;
+    }
+    .worstgen .card .card-content p {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    .parallax-container {
+        height: 300px;
+    }
+    .worstgen .card {
+        margin-top: 3rem;
+    }
+    .worstgen .card .card-content {
+        padding: 6px;
+}
+@media screen and (max-width: 560px){
+
+}
