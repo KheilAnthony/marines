@@ -181,18 +181,111 @@ a.waves-effect.waves-light.btn-small {
     font-size: 3.25rem; font-weight:bold;
 }
 .news p.flow-text.body{
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 1200px){
+    .news p.flow-text.head{
+        font-size: 2.75rem; font-weight:bold;
+    }
+    .news p.flow-text.body{
+        font-size: 1.25rem;
+    }
+    .news .next-button {
+        margin-left:92%
+    }
+    .carousel .indicators {
+        bottom: 8%;
+    }
+    .marineford .row .col.l4 {
+        width: 48.333333%;
+    }
+    .worstgen .card .card-content p {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+}
+@media screen and (max-width: 1000px){
+    .news p.flow-text.head{
+        font-size: 2.50rem; font-weight:bold;
+    }
+    .news p.flow-text.body{
+        font-size: 1.2rem;
+    }
+    .news .next-button {
+        margin-left:91%
+    }
+    .carousel .indicators {
+        bottom: 5%;
+    }
+    .worstgen .card .card-content p {
+        font-size: 2rem;
+        line-height: 3rem;   
+    }
+    .worstgen .card .card-content {
+        padding: 19px
+    }
+    .marinecard.col.l4 {
+        width: 48.333333%;
+    }
+    .marineford .card {
+        margin-top: 20.5rem
+    }
+    .parallax-container {
+        height: 500px;
+    }
+}
+@media screen and (max-width: 960px){
+    .news p.flow-text.head{
+        font-size: 2.50rem; font-weight:bold;
+    }
+    .news p.flow-text.body{
+        font-size: 1.5rem;
+    }
+    .news .next-button {
+        margin-left:92%
+    }
+    .carousel .indicators {
+        bottom: 2%;
+    }
+    .parallax-container {
+        height: 470px;
+    }
+    .marineford .card {
+        margin-top: 18.5rem;
+    }
+    .marineford .row .col.l4 {
+        width: 49.333333%;
+    }
+    .marinecard.col.offset-m2{
+        margin-left: 25.666667%;
+    }
+    .worstgen .card .card-content p{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .marineford .card-content .new {
+        font-size: 5.7vw;
+    }
 }
 
-@media screen and (max-width: 960px){
-    
-}
 @media screen and (max-width: 700px){
     .marineford .parallax-container {
         height: 300px;
     }
+    .marinecard.col.m8 {
+        width: 46.666667%;
+    }
+    .marinecard.col.offset-m2 {
+        margin-left: 25.666667%;
+    }
+    .marineford .card-content .new {
+        font-size: 4.7vw;
+    }
+    .marineford .card-content p {
+        font-size: 1.5rem;
+    }
     .marineford .card {
-        margin-top: 6.5rem;
+        margin-top: 10.5rem;
     }
     .wanted-button .btn-small {
         font-size: 10px;
@@ -202,24 +295,26 @@ a.waves-effect.waves-light.btn-small {
     }
     .worstgen .card .card-content p {
         font-size: 1.5rem;
-        line-height: 3rem;
+        line-height: 2.5rem;
+        padding: 10px;
+    }
+    .worstgen .card .card-content {
+        padding: 10px;
     }
     .parallax-container {
         height: 300px;
     }
+    .wanted-button .btn-small {
+        font-size: 8px;
+    }
     .worstgen .card {
         margin-top: 3rem;
     }
-    .worstgen .card .card-content {
-        padding: 6px;
-    }
+
     .marineabout .card-content {
         padding: 10px;
     }
-    .marineford .card-content .new {
-        font-size: 7.8vw;
-        line-height: 10vw;
-    }
+
     .about-us img {
         padding: 14px;
     }
@@ -230,7 +325,7 @@ a.waves-effect.waves-light.btn-small {
         font-size: 1.75rem; font-weight:bold;
     }
     .news p.flow-text.body{
-        font-size: 1rem;
+        font-size: 1.11111rem;
     }
     .news .next-button {
         margin-left:89%
@@ -241,14 +336,25 @@ a.waves-effect.waves-light.btn-small {
     .carousel .indicators {
         bottom: 25%;
     }
-    .worstgen .card .card-content p {
-        font-size: 1.5rem;
-        line-height: 2.5rem;
+    .next-button {
+        visibility: hidden;
     }
-    .worstgen .card .card-content {
-        padding: 23px;
+    .prev-button {
+        visibility: hidden;
     }
-
+    
+}
 @media screen and (max-width: 560px){
-
+    .marineford .row .col.l4 {
+        width: 56.333333%;
+    }
+    .marinecard.col.offset-m2 {
+        margin-left: 20.666667%;
+    }
+    .news p.flow-text.head{
+        font-size: 1.25rem;
+    }
+    .news p.flow-text.body{
+        font-size: 0.9rem;
+    }
 }
