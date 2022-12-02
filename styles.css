@@ -94,8 +94,11 @@ a.waves-effect.waves-light.btn-small {
 
 .marineford .card {
     background-color: #1952a1c6;
-    margin-top: 26.5rem;
+    margin-top: 23.5rem;
     font-family: 'Josefin Sans', sans-serif;
+}
+.marineford-card {
+    margin-left: 35px;
 }
 .marineford .card-content p {
     font-size: 2.5rem;
@@ -107,6 +110,27 @@ a.waves-effect.waves-light.btn-small {
 .parallax-container .parallax img{
     min-width: 100%;
     min-height: 100%;
+}
+.news img {
+    height: 500px;
+}
+.news h1 {
+    margin: 2.8rem 0 -3.32rem 0;
+}
+.news .prev-button a {
+    background-color: rgba(128, 128, 128, 0.584);
+}
+.news .prev-button i {
+    padding-top: 1rem;
+}
+.news .next-button {
+    margin-left:93.75%
+}
+.news .next-button a {
+    background-color: rgba(128, 128, 128, 0.584);
+}
+.news .next-button a i{
+    padding-top: 1rem;
 }
 @media only screen and (max-width: 600px) {
     .parallax-container {
@@ -153,6 +177,12 @@ a.waves-effect.waves-light.btn-small {
     padding-left: 7px;
     padding-right: 7px;
 }
+.news p.flow-text.head{
+    font-size: 3.25rem; font-weight:bold;
+}
+.news p.flow-text.body{
+    font-size: 1.75rem;
+}
 
 @media screen and (max-width: 960px){
     
@@ -162,10 +192,13 @@ a.waves-effect.waves-light.btn-small {
         height: 300px;
     }
     .marineford .card {
-        margin-top: 9.5rem;
+        margin-top: 6.5rem;
     }
-    .marineford-card {
-        margin-left: 12px;
+    .wanted-button .btn-small {
+        font-size: 10px;
+    }
+    .wanted-button .card-action {
+        padding: 9px 24px;
     }
     .worstgen .card .card-content p {
         font-size: 1.5rem;
@@ -179,7 +212,43 @@ a.waves-effect.waves-light.btn-small {
     }
     .worstgen .card .card-content {
         padding: 6px;
-}
+    }
+    .marineabout .card-content {
+        padding: 10px;
+    }
+    .marineford .card-content .new {
+        font-size: 7.8vw;
+        line-height: 10vw;
+    }
+    .about-us img {
+        padding: 14px;
+    }
+    .news img {
+        height: 354px;
+    }
+    .news p.flow-text.head{
+        font-size: 1.75rem; font-weight:bold;
+    }
+    .news p.flow-text.body{
+        font-size: 1rem;
+    }
+    .news .next-button {
+        margin-left:89%
+    }
+    .headline {
+        width: 93%;
+    }
+    .carousel .indicators {
+        bottom: 25%;
+    }
+    .worstgen .card .card-content p {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+    .worstgen .card .card-content {
+        padding: 23px;
+    }
+
 @media screen and (max-width: 560px){
 
 }

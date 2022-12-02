@@ -85,7 +85,7 @@
       <div class="parallax-container">
         <div class="parallax"><img class="responsive-img" src="img/marineford.png"></div>
         <div class="row ">
-          <div class="col s12 m8 l4 marineford-card">
+          <div class="col s12 m8 l4 offset-m2">
             <div class="card z-depth-5">
               <div class="card-content white-text center-align">
                 <p class="new ">New Marineford</p>
@@ -128,8 +128,10 @@
               <div class="card-image">
                 <img src="img/marines.png">
               </div>
-              <div class="card-content">
-                <p>The Marines are the World Government's military sea force, tasked with law enforcement, international security, and military operations.</p>
+              <div class="marineabout">
+                <div class="card-content">
+                  <p>The Marines are the World Government's military sea force, tasked with law enforcement, international security, and military operations.</p>
+                </div>
               </div>
               <div class="card-action">
                 <a href="#">Read more about us</a>
@@ -154,8 +156,10 @@
               <div class="card-content white-text center-align">
                 <p>The main purpose of the <span class="blue-text text-lighten-3">Marines</span> is bringing any criminal to justice, with a particular focus on capturing <span class="red-text text-darken-2">pirates</span>.</p>
               </div>
-              <div class="card-action center-align">
-                <a class="waves-effect waves-light btn-small">See all the wanted pirates here</a>
+              <div class="wanted-button">
+                <div class="card-action center-align">
+                  <a class="waves-effect waves-light btn-small">See all the wanted pirates here</a>
+                </div>
               </div>
             </div>
           </div>
@@ -167,68 +171,70 @@
 
     <!-- news -->
 
-    <div class="container headline">
-      <h1 class="center" style="margin: 2.8rem 0 -3.32rem 0;">Latest News</h1>
-      <div class="carousel carousel-slider center headline1 valign-wrapper">
- 
-        <span class="prev-button center">
-          <a class="waves-effect waves-dark btn prev" style="background-color: rgba(128, 128, 128, 0.584);"><i class="material-icons" style="padding-top: 1rem;">arrow_back_ios</i></a>
-        </span>        
-        <span class="next-button center" style="margin-left:93.75%">
-          <a class="waves-effect waves-dark btn next" style="background-color: rgba(128, 128, 128, 0.584);"><i class="material-icons" style="padding-top: 1rem;">arrow_forward_ios</i></a>
-        </span>
-
-        <div class="carousel-item" href="#one!">
-            
+    <div class="news">
+      <div class="container headline">
+        <h1 class="center">Latest News</h1>
+        <div class="carousel carousel-slider center headline1 valign-wrapper">
+   
+          <span class="prev-button center hide-on-med-and-down">
+            <a class="waves-effect waves-dark btn prev"><i class="material-icons">arrow_back_ios</i></a>
+          </span>        
+          <span class="next-button center hide-on-med-and-down" >
+            <a class="waves-effect waves-dark btn next"><i class="material-icons">arrow_forward_ios</i></a>
+          </span>
+  
+          <div class="carousel-item" href="#one!">
+              
+              <div class="card horizontal">
+                <div class="card-image blue darken-3">
+                  <img src="img/crossguild.png">
+                </div>
+                <div class="card-stacked">
+                  <div class="card-content blue darken-3 white-text">
+                    <p class="flow-text head"><a class="white-text" href="#">The New Clown Emperor and his.. Cross Guild?!</a></p>
+                    
+                    <p class="flow-text body">It looks like the former Shichibukai Buggy the Clown found a way to counter the dissolution of the Shichibukai system by forming alliance with co-former Shichibukai Sir Crocodile and Dracule Mihawk. What does this mean for the state of justice around the world?</p>
+                  </div>
+                  <div class="card-action blue darken-3">
+                    <a class="white-text" href="#">Read more...</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item" href="#two!">
             <div class="card horizontal">
               <div class="card-image blue darken-3">
-                <img style="height: 500px;" src="img/crossguild.png">
+                <img src="img/newemperor.jpg">
               </div>
               <div class="card-stacked">
                 <div class="card-content blue darken-3 white-text">
-                  <p class="flow-text" style="font-size: 3.25rem; font-weight:bold;"><a class="white-text" href="#">The New Clown Emperor and his.. Cross Guild?!</a></p>
-                  
-                  <p class="flow-text" style="font-size: 1.75rem;">It looks like the former Shichibukai Buggy the Clown found a way to counter the dissolution of the Shichibukai system by forming alliance with co-former Shichibukai Sir Crocodile and Dracule Mihawk. What does this mean for the state of justice around the world?</p>
+                  <p class="flow-text head"><a class="white-text" href="#">Monkey D. Luffy dethrones Kaido!</a></p>
+                  <p class="flow-text body">Monkey D. Luffy, a rookie pirate, who has been causing ruckus against the World Government and the Marines in the past few years now attained the title of an emperor! How far can this troublesome boy go?!</p>
                 </div>
                 <div class="card-action blue darken-3">
                   <a class="white-text" href="#">Read more...</a>
                 </div>
               </div>
             </div>
-        </div>
-        <div class="carousel-item" href="#two!">
-          <div class="card horizontal">
-            <div class="card-image blue darken-3">
-              <img style="height: 500px;" src="img/newemperor.jpg">
-            </div>
-            <div class="card-stacked">
-              <div class="card-content blue darken-3 white-text">
-                <p  style="font-size: 3.25rem; font-weight:bold;"><a class="white-text" href="#">Monkey D. Luffy dethrones Kaido!</a></p>
-                <p style="font-size: 1.75rem;">Monkey D. Luffy, a rookie pirate, who has been causing ruckus against the World Government and the Marines in the past few years now attained the title of an emperor! How far can this troublesome boy go?!</p>
+          </div>
+          <div class="carousel-item" href="#three!">
+            <div class="card horizontal">
+              <div class="card-image blue darken-3">
+                <img src="img/koby.webp">
               </div>
-              <div class="card-action blue darken-3">
-                <a class="white-text" href="#">Read more...</a>
+              <div class="card-stacked">
+                <div class="card-content blue darken-3 white-text">
+                  <p class="flow-text head"><a class="white-text" href="">Captain Koby, abducted by Blackbeard!</a></p>
+                  <p class="flow-text body">On their way to capture former shichibukai Boa Hancock, Vice Admiral Yamakaji's fleet along with Cap. Koby, and Lt. Commander Helmeppo recently clashed against the Emperor Blackbeard in Amazon Lily. The encounter resulted in the abduction of Cap. Koby! What is Blackbeard planning?!</p>
+                </div>
+                <div class="card-action blue darken-3">
+                  <a class="white-text" href="#">Read more...</a>
+                </div>
               </div>
             </div>
           </div>
+          
         </div>
-        <div class="carousel-item" href="#three!">
-          <div class="card horizontal">
-            <div class="card-image blue darken-3">
-              <img style="height: 500px;" src="img/koby.webp">
-            </div>
-            <div class="card-stacked">
-              <div class="card-content blue darken-3 white-text">
-                <p  style="font-size: 3.25rem; font-weight:bold;"><a class="white-text" href="">Captain Koby, abducted by Blackbeard!</a></p>
-                <p style="font-size: 1.75rem;">On their way to capture former shichibukai Boa Hancock, Vice Admiral Yamakaji's fleet along with Cap. Koby, and Lt. Commander Helmeppo recently clashed against the Emperor Blackbeard in Amazon Lily. The encounter resulted in the abduction of Cap. Koby! What is Blackbeard planning?!</p>
-              </div>
-              <div class="card-action blue darken-3">
-                <a class="white-text" href="#">Read more...</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
       </div>
     </div>
 
