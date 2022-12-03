@@ -73,13 +73,72 @@
           </ul>
         </div> 
       </nav>
-      <ul class="sidenav" id="mobile-links">
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Be a Marine</a></li>
-      <li><a href="#">Library</a></li>
-      <li><a href="#">Bases</a></li>
-      <li><a href="#" class="login">Login</a></li>
-    </ul>
+      <ul class="collapsible sidenav" id="mobile-links">
+        <li><div class="user-view">
+          <div class="background">
+            <img src="img/blue.png">
+          </div>
+          <a href="#user"><img class="circle" src="img/sakazuki.png"></a>
+          <a href="#name"><span class="white-text name">Fleet Admiral Sakazuki</span></a>
+          <a href="#email"><span class="white-text email">sakazukih8pirates@gmail.com</span></a>
+        </div></li>
+        <li>
+          <div class="collapsible-header">About Us</div>
+          <div class="collapsible-body">
+            <span>
+              <ul>
+                <li><a href="#!">History</a></li>
+                <li><a href="#!">Mission</a></li>
+                <li><a href="#!">Vision</a></li>
+                <li><a href="#!">Affiliations</a></li>
+              </ul>
+             </span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">Be a Marine</div>
+          <div class="collapsible-body">
+            <span>
+              <ul>
+                <li><a href="#!">Requirements</a></li>
+                <li><a href="#!">Submission Outlets</a></li>
+                <li><a href="#!">Benefits</a></li>
+              </ul>
+            </span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">Library</div>
+          <div class="collapsible-body">
+            <span>
+              <ul>
+                <li><a href="#!">Swords</a></li>
+                <li><a href="#!">Devil Fruits</a></li>
+                <li><a href="#!">Pirates</a></li>
+                <li><a href="#!">Beasts</a></li>
+                <li><a href="#!">World Map</a></li>
+              </ul>
+            </span>
+        </div>
+        </li>
+        <li>
+          <div class="collapsible-header">Bases</div>
+          <div class="collapsible-body">
+            <span>
+              <ul>
+                <li><a href="#!">North Blue</a></li>
+                <li><a href="#!">South Blue</a></li>
+                <li><a href="#!">East Blue</a></li>
+                <li><a href="#!">West Blue</a></li>
+              </ul>
+            </span>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="login">Login</a>
+        </li>
+      </ul>
+    
     </header>
     <section class="marineford">
       <div class="parallax-container">
@@ -310,6 +369,7 @@
         </div>
       </div>
     </footer>
+    <audio autoplay="" loop="" src="img/audio.webm"></audio>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -350,6 +410,9 @@
       });
       $(document).ready(function(){
         $('.datepicker').datepicker();
+      });
+      $(document).ready(function(){
+        $('.collapsible').collapsible();
       });
     </script>
   </body>

@@ -214,6 +214,18 @@ input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-def
 }
 .sidenav li>a {
     color: #1951A1;
+    padding: 0px 15px;
+}
+.sidenav .collapsible-header, .sidenav.fixed .collapsible-header {
+    background-color: transparent;
+    border: none;
+    line-height: inherit;
+    height: inherit;
+    padding: 0 16px;
+    font-weight: bold;
+}
+.fixed-action-btn.music{
+    top: -10px;
 }
 @media screen and (max-width: 1200px){
     .news p.flow-text.head{
@@ -366,7 +378,7 @@ input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-def
         width: 93%;
     }
     .carousel .indicators {
-        bottom: 25%;
+        bottom: -5%;
     }
     .next-button {
         visibility: hidden;
@@ -374,7 +386,9 @@ input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-def
     .prev-button {
         visibility: hidden;
     }
-    
+    .headline1 {
+        height: 33rem !important;
+    }
 }
 @media screen and (max-width: 560px){
     .marineford .row .col.l4 {
