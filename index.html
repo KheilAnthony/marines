@@ -34,8 +34,8 @@
   <body>
     <header>
       <ul id="dropdown1" class="dropdown-content">
-        <li><a href="#!">Devil Fruits</a></li>
         <li><a href="#!">Swords</a></li>
+        <li><a href="#!">Devil Fruits</a></li>
         <li><a href="#!">Pirates</a></li>
         <li><a href="#!">Beasts</a></li>
         <li><a href="#!">World Map</a></li>
@@ -186,7 +186,7 @@
           <div class="carousel-item" href="#one!">
               
               <div class="card horizontal">
-                <div class="card-image blue darken-3">
+                <div class="card-image blue darken-3 valign-wrapper">
                   <img src="img/crossguild.png">
                 </div>
                 <div class="card-stacked">
@@ -196,14 +196,14 @@
                     <p class="flow-text body">It looks like the former Shichibukai Buggy the Clown found a way to counter the dissolution of the Shichibukai system by forming alliance with co-former Shichibukai Sir Crocodile and Dracule Mihawk. What does this mean for the state of justice around the world?</p>
                   </div>
                   <div class="card-action blue darken-3">
-                    <a class="white-text" href="#">Read more...</a>
+                    <a href="">Read more...</a>
                   </div>
                 </div>
               </div>
           </div>
           <div class="carousel-item" href="#two!">
             <div class="card horizontal">
-              <div class="card-image blue darken-3">
+              <div class="card-image blue darken-3 valign-wrapper">
                 <img src="img/newemperor.jpg">
               </div>
               <div class="card-stacked">
@@ -212,14 +212,14 @@
                   <p class="flow-text body">After toppling down the 2-decade-long rule of Kaido in the Land of Wano, the Strawhat pirates, Heart pirates, Kid pirates, the samurai of Wano, and the Mink tribes were able to take down the titanic alliance of the Beast and Big Mom pirates. And after the decisive fight of Monkey D. Luffy and Kaido, Luffy effectively became the new emperor!</p>
                 </div>
                 <div class="card-action blue darken-3">
-                  <a class="white-text" href="#">Read more...</a>
+                  <a href="#">Read more...</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="carousel-item" href="#three!">
             <div class="card horizontal">
-              <div class="card-image blue darken-3">
+              <div class="card-image blue darken-3 valign-wrapper">
                 <img src="img/koby.webp">
               </div>
               <div class="card-stacked">
@@ -228,7 +228,7 @@
                   <p class="flow-text body">On their way to capture former shichibukai Boa Hancock, Vice Admiral Yamakaji's fleet along with Cap. Koby, and Lt. Commander Helmeppo recently clashed against the Emperor Blackbeard in Amazon Lily. The encounter resulted in the abduction of Cap. Koby! What is Blackbeard planning?!</p>
                 </div>
                 <div class="card-action blue darken-3">
-                  <a class="white-text" href="#">Read more...</a>
+                  <a href="#">Read more...</a>
                 </div>
               </div>
             </div>
@@ -237,7 +237,8 @@
         </div>
       </div>
     </div>
-
+    
+    
     <!-- fixed action button -->
 
     <div class="fixed-action-btn">
@@ -250,11 +251,9 @@
         <li><a class="btn-floating blue tooltipped modal-trigger" data-position="left" data-tooltip="Email your concern"  href="#modal1"><i class="material-icons">mail</i></a></li>
       </ul>
     </div>
-    <section>
+
+    <section class="feedback">
     
-
-
-
     <!-- Modal Structure -->
     <div id="modal1" class="modal">
       <div class="modal-content white-text blue darken-3" style="padding: 50px;">
@@ -279,7 +278,7 @@
         </form>
       </div>
       <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Send <span><i class="material-icons">send</i></span></a>
       </div>
     </div>
 
@@ -348,6 +347,9 @@
       });
       $(".prev").click(function(){
         $('.carousel').carousel('prev');
+      });
+      $(document).ready(function(){
+        $('.datepicker').datepicker();
       });
     </script>
   </body>

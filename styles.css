@@ -183,6 +183,35 @@ a.waves-effect.waves-light.btn-small {
 .news p.flow-text.body{
     font-size: 1.5rem;
 }
+
+.input-field .prefix ~ label {
+    margin-left: 3rem;
+    color: white;
+}
+.input-field .prefix ~ input, .input-field .prefix ~ textarea, .input-field .prefix ~ label, .input-field .prefix ~ .validate ~ label, .input-field .prefix ~ .helper-text, .input-field .prefix ~ .autocomplete-content {
+    margin-left: 3rem;
+    width: 92%;
+    width: calc(100% - 3rem);
+    
+}
+.datepicker-calendar {
+    color: black;
+}
+.input-field .prefix.active{
+    color: white;
+}
+#message {
+    color: white;
+}
+#email {
+    color: white;
+}
+#date {
+    color: white;
+}
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+    color: white;
+}
 @media screen and (max-width: 1200px){
     .news p.flow-text.head{
         font-size: 2.75rem; font-weight:bold;
@@ -355,6 +384,119 @@ a.waves-effect.waves-light.btn-small {
         font-size: 1.25rem;
     }
     .news p.flow-text.body{
-        font-size: 0.9rem;
+        font-size: 1rem;
+    }
+    .marineford .parallax-container {
+        height: 230px;
+    }
+    .marineford .card {
+        margin-top: 6.5rem;
+    }
+    .worstgen .card .card-content p {
+        font-size: 1.2em;
+        line-height: 2.5rem;
+        padding: 0px;
+    }
+    .worstgen .col.s12 {
+        width: 85%;
+        margin-left: 30px;
+        left: auto;
+        right: auto;
+    }
+    .headline1 {
+        height: 33rem !important;
+    }
+    .carousel .indicators {
+        bottom: -3%;
+    }
+    .news .card .card-content {
+        padding: 24px 17px 23px 0px;
+        border-radius: 0 0 2px 2px;
+    }
+}
+@media screen and (max-width: 426px){
+    .marineford .row .col.l4 {
+        width: 73.333333%;
+    }
+    .marinecard.col.offset-m2 {
+        margin-left: 12.666667%;
+    }
+    .news p.flow-text.head {
+        font-size: 1rem;
+    }
+    .news p.flow-text.body{
+        font-size: 0.7rem;
+    }
+    .marineford .parallax-container {
+        height: 200px;
+    }
+    .worstgen .parallax-container {
+        height: 200px;
+    }
+    .marineford .card {
+        margin-top: 4.5rem;
+    }
+    .worstgen .card .card-content p {
+        font-size: 1rem;
+        line-height: 2rem;
+        padding: 0px;
+    }
+    .worstgen .card {
+        margin-top: 2rem;
+    }
+    .wanted-button .card-action {
+        padding: 6px 24px;
+    }
+    .wanted-button .btn-small {
+        font-size: 9px;
+    }
+    .headline1 {
+        height: 32rem !important;
+    }
+    .news img {
+        height: 239px;
+    }
+    .news .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+        font-size: 10px;
+    }
+    .news .card .card-action {
+   
+        padding: 8px 24px;
+    }
+    .news .card .card-content {
+        padding: 24px 17px 11px 0px;
+        border-radius: 0 0 2px 2px;
+    }
+    .news .headline1 {
+        height: 25rem !important;
+    }
+}
+@media screen and (max-width: 376px){
+    .marineford .card .card-content {
+        padding: 14px;
+        border-radius: 0 0 2px 2px;
+    }
+    .marineford .row .col.l4 {
+        width: 79.333333%;
+    }
+    .marinecard.col.offset-m2 {
+        margin-left: 10.666667%;
+    }
+    .about-us .card-content {
+        text-align: center;
+    }
+    .about-us .card-action {
+        text-align: center;
+    }
+    .worstgen .btn-small {
+        height: 21.4px;
+        line-height: 21.4px;
+        font-size: 8px;
+    }
+    .carousel .indicators {
+        bottom: -5%;
+    }
+    .news p.flow-text.body {
+        font-size: 0.6rem;
     }
 }
